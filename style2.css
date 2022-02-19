@@ -1,0 +1,52 @@
+.main{
+    width:100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.main .right{
+    width: 55vw;
+    height: 80vh;
+}
+.main .right img{
+    width: 55vw;
+    height: 80vh;
+}
+.main .left{
+    width: 45vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.left h1{
+    font-family: 'Poppins', sans-serif;
+}
+.left h3{
+    font-family: 'Redressed', cursive;
+}
+@media (max-width:910px){
+    .main{
+        flex-direction: column;
+        height: 160vh;
+    }
+    .main .right{
+        width: 100vw;
+        height: 80vh;
+    }
+    .main .right img{
+        width: 100vw;
+        height: 80vh;
+    }
+    .main .left{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
